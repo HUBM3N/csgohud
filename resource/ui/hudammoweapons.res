@@ -1,0 +1,183 @@
+"Resource/UI/HudAmmoWeapons.res"
+{
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"9999"		
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"9999"		
+	}
+	"ammo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ammo"
+		"xpos"			"74"
+		"ypos"			"rs1.05"
+		"zpos"			"7"
+		"wide"			"28"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"drawcolor"     "255 255 255 225"
+		"image"			"../vgui/replay/thumbnails/ammo"
+	}
+	"BG"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"8"
+		"ypos"			"r27+1"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"34"
+		"visible"		"1"
+		"alpha"			"185"
+		"image"					"replay/thumbnails/sidegradient2"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"drawcolor" "0 0 0 255"
+	}
+	"BG3"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"34"
+		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/sidegradient2"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"drawcolor" "0 0 0 255"
+		"pin_to_sibling "BG"
+	}
+	"BG2"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"1"
+		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/sidegradient2"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"drawcolor" "0 0 0 255"
+		"pin_to_sibling "BG"
+	}
+
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"robotobold26"
+		"fgcolor"		"250 250 250 235"
+		"xpos"			"-8"
+		"ypos"			"r27"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"55"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+	}		
+	"AmmoInClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClipShadow"
+		"font"			"robotobold26Test"
+		"fgcolor"		"250 250 250 0"
+		"xpos"			"-8"
+		"ypos"			"r27"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"55"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"		
+		"labelText"		"%Ammo%"
+		
+	}						
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"robotobold14"
+		"fgcolor"		"250 250 250 235"
+		"xpos"			"56"
+		"ypos"			"r27-1"
+		"zpos"			"7"
+		"wide"			"40"
+		"tall"			"38"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%AmmoInReserve%"
+		"alpha" "215"
+	}		
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"font"			"robotobold14"
+		"fgcolor"		"250 250 250 235"
+		"xpos"			"47"
+		"ypos"			"r26-1"
+		"zpos"			"7"
+		"wide"			"10"
+		"tall"			"35"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"/"
+		"alpha" "215"
+	}									
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"xpos"			"-8"
+		"ypos"			"r27"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"font"			"robotobold26"
+		"fgcolor"		"250 250 250 235"	
+		"textalignment"		"east"	
+		"labelText"		"%Ammo%"
+		
+	}	
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"xpos"			"-8"
+		"ypos"			"r27"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"font"			"robotobold26test"
+		"fgcolor"		"250 250 250 0"	
+		"textalignment"		"east"
+		"labelText"		"%Ammo%"
+		
+	}									
+}
